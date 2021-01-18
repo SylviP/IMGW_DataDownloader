@@ -1,0 +1,29 @@
+Instrukcja do programu "run.py"
+
+1. Pliki "run.py" i "all_functions.py" muszą być w tym samym miejscu na dysku. Plik "all_function.py" zawiera wszystkie funkcje, z których korzystamy w programie "run.py"
+
+2. Do poprawnego działania programu wymagane jest zainstalowanie Pythona 3.7. oraz następujące biblioteki: numpy, subprocess, pathlib, zipfile, pandas, sys, datetime i shutil.
+
+3. Uruchamiamy program w terminalu komendą: python3 run.py
+
+4. Odpowiadamy na pytania.
+
+Objaśnienie skrótów:
+- k_d_t - dane klimatologiczne średnie dobowe
+- k_d   - dane klimatologiczne dobowe
+- s_d_t - dane synoptyczne średnie dobowe
+- s_d   - dane synoptyczne dobowe
+- o_d   - dane opadowe dobowe
+- k_m_t - dane klimatologiczne średnie miesięczne
+- k_m_d - dane klimatologiczne miesięczne
+- s_m_t - dane synoptyczne średnie miesięczne
+- s_m_d - dane synoptyczne miesięczne
+- o_m   - dane opadowe miesięczne
+- k_t   - dane klimatologiczne terminowe
+- s_t   - dane synoptyczne terminowe
+
+***
+Ostatecznie na komputerze tworzy się folder "dane" w którym mamy foldery: "txt_files" i "unzip_" (końcówka różni się w zależności od rodzaju pobranych danych) oraz pliki csv z posortowanymi danymi z poszczególnych stacji. 
+W folderze "txt_files" mamy pliki tekstowe z opisami plików csv ze strony IMGW, natomiast w folderach "unzip" mamy wypakowane pliki zip, które pobrano ze strony IMGW.
+W miejscu gdzie mamy program "run.py" tworzą się pliki "wykaz_stacji.csv" oraz "stacje_"(końcówka różni się w zależności od rodzaju pobranych danych)
+***
